@@ -1,0 +1,61 @@
+<!-- loop holes :- 
+1. change the color when user click -------- done 
+2. determine what was the computer input ---------done
+3. determine who is winning 
+4. add an option to play for 5 matches 10 matches or infinte
+5. make a footer  ------------done
+6. print players name instead of player 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissor</title>
+    <link rel = "stylesheet" href = "./style.css" />
+    
+</head>
+<body >
+    <header id ="heading">
+        <span class ="main-text-style"> Rock Paper Scissor</span>
+    </header>
+    <section>
+        <div class = "container"><!--this is flex box container-->
+            <div class = "container-item" ><!--this is flex box item1 rock-->
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSCYxqs6tYTEttF0EqkepIIx_CPuUS7AIhPlAYXqV2k4lK4T9Is" class="handles" onclick = "randomNumberGenerator(0)">
+            </div >
+            <div class ="container-item"><!--this is flebox item2 paper-->
+                <img src="https://previews.123rf.com/images/ylivdesign/ylivdesign1606/ylivdesign160602049/58074583-opened-palm-of-the-hand-icon-in-cartoon-style-on-a-white-background.jpg " class="handles" onclick = "randomNumberGenerator(1)">
+            </div >
+            <div class ="container-item"> <!--this is flex box item 3 scissor-->
+                <img src=" https://img3.stockfresh.com/files/n/noedelhap/m/73/7920509_stock-vector-human-cartoon-hand-showing-two-fingers.jpg" class="handles" onclick = "randomNumberGenerator(2)">
+            </div>
+        </div>
+
+    </section>
+    <section> 
+         <!--score board-->
+            <div class="score-board-style"> <span class="score-board-style2">Score-Board</span>
+             <div class ="computer">Computer
+                 <div class="score " id = "score-computer">0</div>
+             </div>
+             <div class ="you">Player
+                <div
+                 class="score " id ="score-player">0</div>
+            </div>
+            <!--status-->
+            <div><span id="status">Lets Play</span></div>
+        </div>
+        
+    </section>
+    <footer>
+        <div id = "footer">
+            <span class= "main-text-style" id = "footer-text">Priya Bihani's Project
+            </span>
+            <span  ><a href = "#insta"><img src= "insta-logo.png" class = "footer-img" ></a></span>
+          </div>
+    </footer>
+    <script  src ="./function.js" async ></script>
+</body>
+</html>
