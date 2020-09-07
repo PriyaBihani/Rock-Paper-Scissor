@@ -9,3 +9,11 @@ You will be competing against a randomly generated output by computer.
 It also have a score board as well as a status bar for showing the computer and players scores.
 
 It uses basic front-end language HTML, CSS, JavaScript.
+
+# Getting started
+
+## 1 
+### git clone https://github.com/PriyaBihani/Rock-Paper-Scissor.git
+
+## 2 
+  $ Right Click on the index.html File and open with live server in Visual Studio Code
